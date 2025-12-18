@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextGen Academy | Shape Your Future</title>
+    <style>
+        /* General Styles */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; color: #333; line-height: 1.6; }
+        header { background: #2c3e50; color: white; padding: 1rem 0; position: sticky; top: 0; z-index: 1000; }
+        nav { display: flex; justify-content: space-around; align-items: center; }
+        nav ul { list-style: none; display: flex; padding: 0; }
+        nav ul li { margin: 0 15px; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+
+        /* Hero Section */
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1523050335392-9bc6ad0ed99d?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover; height: 400px; color: white; 
+            display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
+        }
+        .hero h1 { font-size: 3rem; margin: 0; }
+        .btn { background: #e74c3c; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+
+        /* Sections */
+        .container { width: 80%; margin: auto; padding: 40px 0; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { border: 1px solid #ddd; padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+
+        /* Contact Form */
+        form { display: flex; flex-direction: column; max-width: 500px; margin: auto; }
+        input, textarea { margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 20px 0; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo"><h2>NextGen Academy</h2></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Empowering the Leaders of Tomorrow</h1>
+        <p>Expert Coaching for Competitive Exams & Skill Development</p>
+        <a href="#courses" class="btn">Explore Courses</a>
+    </section>
+
+    <div class="container" id="courses">
+        <h2 style="text-align: center;">Our Featured Courses</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Mathematics</h3>
+                <p>Advanced calculus, algebra, and logic for high school & college levels.</p>
+            </div>
+            <div class="card">
+                <h3>Science & Tech</h3>
+                <p>Hands-on physics, chemistry, and coding workshops for innovators.</p>
+            </div>
+            <div class="card">
+                <h3>Soft Skills</h3>
+                <p>Public speaking, leadership, and time management training.</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="container" id="contact" style="background: #f4f4f4; border-radius: 10px;">
+        <h2 style="text-align: center;">Enroll Now</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Which course are you interested in?"></textarea>
+            <button type="submit" class="btn" style="border:none; cursor:pointer;">Submit Inquiry</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 NextGen Academy. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
