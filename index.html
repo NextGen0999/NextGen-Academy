@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextGen Academy | Shape Your Future</title>
+    <style>
+        /* General Styles */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; color: #333; line-height: 1.6; }
+        header { background: #2c3e50; color: white; padding: 1rem 0; position: sticky; top: 0; z-index: 1000; }
+        nav { display: flex; justify-content: space-around; align-items: center; }
+        nav ul { list-style: none; display: flex; padding: 0; }
+        nav ul li { margin: 0 15px; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+
+        /* Hero Section */
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1523050335392-9bc6ad0ed99d?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover; height: 400px; color: white; 
+            display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
+        }
+        .hero h1 { font-size: 3rem; margin: 0; }
+        .btn { background: #e74c3c; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+
+        /* Sections */
+        .container { width: 80%; margin: auto; padding: 40px 0; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { border: 1px solid #ddd; padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+
+        /* Contact Form */
+        form { display: flex; flex-direction: column; max-width: 500px; margin: auto; }
+        input, textarea { margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 20px 0; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo"><h2>NextGen Academy</h2></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Empowering the Leaders of Tomorrow</h1>
+        <p>Expert Coaching for Competitive Exams & Skill Development</p>
+        <a href="#courses" class="btn">Explore Courses</a>
+    </section>
+
+    <div class="container" id="courses">
+        <h2 style="text-align: center;">Our Featured Courses</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Mathematics</h3>
+                <p>Advanced calculus, algebra, and logic for high school & college levels.</p>
+            </div>
+            <div class="card">
+                <h3>Science & Tech</h3>
+                <p>Hands-on physics, chemistry, and coding workshops for innovators.</p>
+            </div>
+            <div class="card">
+                <h3>Soft Skills</h3>
+                <p>Public speaking, leadership, and time management training.</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="container" id="contact" style="background: #f4f4f4; border-radius: 10px;">
+        <h2 style="text-align: center;">Enroll Now</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Which course are you interested in?"></textarea>
+            <button type="submit" class="btn" style="border:none; cursor:pointer;">Submit Inquiry</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 NextGen Academy. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextGen Academy | Madhepura</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; color: #333; line-height: 1.6; background-color: #fdfaf4; }
+        header { background: #002e5b; color: white; padding: 15px; text-align: center; position: sticky; top: 0; z-index: 1000; }
+        .hero { background: #d41e2a; color: white; padding: 40px 20px; text-align: center; }
+        .container { width: 90%; max-width: 800px; margin: auto; padding: 20px 0; }
+        .poster-img { width: 100%; max-width: 500px; border: 5px solid #fff; box-shadow: 0 0 20px rgba(0,0,0,0.2); border-radius: 10px; }
+        .details { background: white; padding: 20px; border-radius: 10px; margin-top: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .highlight { color: #d41e2a; font-weight: bold; }
+        .btn-whatsapp { display: inline-block; background: #25D366; color: white; padding: 15px 25px; text-decoration: none; border-radius: 50px; font-weight: bold; margin-top: 20px; }
+        .feature-list { list-style: none; padding: 0; text-align: left; }
+        .feature-list li { margin-bottom: 10px; padding-left: 30px; position: relative; }
+        .feature-list li::before { content: '✅'; position: absolute; left: 0; }
+        footer { background: #002e5b; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>NEXTGEN ACADEMY</h1>
+    <p>Strong Foundation Builder</p>
+</header>
+
+<section class="hero">
+    <h2>ADMISSIONS OPEN</h2>
+    <p>कक्षा : 6 से 8 तक (CBSE एवं बिहार बोर्ड)</p>
+</section>
+
+<div class="container" t="NextGen Academy Poster" class="poster-img">
+
+    <div class="details">
+        <h3 class="highlight">7 दिन की FREE DEMO CLASS 🎁</h3>
+        <ul class="feature-list">
+            <li>Maths – Concepts Clear Guarantee</li>
+            <li>Science – Easy + Practical Method</li>
+            <li>English – Grammar & Confidence</li>
+            <li>छोटे Batch – Personal Attention</li>
+            <li>Weekly Test + Result Analysis</li>
+            <li>Regular Homework Checking</li>
+        </ul>
+        
+        <hr>
+        <p><strong>📍 पता:</strong> मुरलीगंज, मधेपुरा</p>
+        <p><strong>📞 संपर्क:</strong> 9060907068</p>
+        
+        <a href="https://wa.me/919060907068?text=Hello%20NextGen%20Academy,%20I%20want%20to%20know%20more%20about%20admissions." class="btn-whatsapp">
+            WhatsApp par Inquiry Karein
+        </a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 NextGen Academy - Seats Limited!</p>
+</footer>
+
+</body>
+</html><div style="margin-top: 15px;">
+    <a href="https://www.instagram.com/Blxshade.x/" target="_blank" class="btn-insta">
+        Follow on Instagram (@Blxshade.x)
+    </a>
+</div>
+
+<style>
+    .btn-insta {
+        display: inline-block;
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        color: white;
+        padding: 15px 25px;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    .btn-insta:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+</style>
+<a href="https://api.whatsapp.com/send?phone=919060907068&text=Hello%20Dipak%20Sir,%20I%20want%20to%20enroll%20in%20NextGen%20Academy." class="btn btn-whatsapp">
+    Click to Chat on WhatsApp
+</a>
+<div class="container" id="ncert-section">
+    <div class="info-card" style="background: #fffbe6; border: 2px solid #f1c40f;">
+        <h2 style="color: #b8860b;">📚 NCERT Digital Library (Class 1-12)</h2>
+        <p>Sabhi classes ki NCERT books aur chapter-wise solutions yahan se download karein:</p>
+        
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 20px;">
+            <a href="https://ncert.nic.in/textbook.php" target="_blank" class="class-btn">Class 1 to 5</a>
+            <a href="https://ncert.nic.in/textbook.php" target="_blank" class="class-btn">Class 6 to 8</a>
+            <a href="https://ncert.nic.in/textbook.php" target="_blank" class="class-btn">Class 9 & 10</a>
+            <a href="https://ncert.nic.in/textbook.php" target="_blank" class="class-btn">Class 11 & 12</a>
+        </div>
+
+        <div style="margin-top: 20px; text-align: left; background: white; padding: 15px; border-radius: 10px;">
+            <h4 style="margin: 0 0 10px 0; color: #333;">How to find Chapter-wise:</h4>
+            <ol style="font-size: 0.9rem; padding-left: 20px;">
+                <li>Upar apni class group select karein.</li>
+                <li>NCERT portal par apni Class, Subject aur Book title chunein.</li>
+                <li>"Go" par click karte hi aapko saare **Chapters** mil jayenge.</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<<div class="card" style="border-left: 5px solid #2c3e50; text-align: left;">
+    <h3 style="color: #002e5b; text-align: center;">📖 Bihar Board (BSEB) Subjects</h3>
+    <p style="text-align: center; font-size: 0.9rem; color: #666;">कक्षा 6 से 8 के लिए सभी मुख्य विषय:</p>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+        <div class="subject-item">🔹 विज्ञान (Science)</div>
+        <div class="subject-item">🔹 गणित (Mathematics)</div>
+        <div class="subject-item">🔹 सामाजिक विज्ञान (SST)</div>
+        <div class="subject-item">🔹 हिंदी (Hindi - किसलय)</div>
+        <div class="subject-item">🔹 अंग्रेज़ी (English - Panorama)</div>
+        <div class="subject-item">🔹 संस्कृत (Sanskrit)</div>
+    </div>
+</div>
+
+<style>
+    .subject-item {
+        background: #fdf2f2;
+        padding: 8px 12px;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: #d41e2a;
+    }
+<style> 
+<div class="card">
+    <h2 style="color: #002e5b; border-bottom: 2px solid #d41e2a; padding-bottom: 10px;">📚 Bihar Board Course Content</h2>
+    <p style="font-size: 0.9rem; color: #666;">Subject par click karein aur chapters ki list dekhein:</p>
+
+    <h3 style="text-align: left; color: #d41e2a; margin-top: 20px;">कक्षा 8 (Class 8)</h3>
+    
+    <details class="subject-box">
+        <summary>गणित (Mathematics)</summary>
+        <ul class="chapter-list">
+            <li>परिमेय संख्याएँ</li>
+            <li>एक चर वाले रैखिक समीकरण</li>
+            <li>ज्यामितीय आकृतियों की समझ</li>
+            <li>आँकड़ों का प्रबंधन</li>
+            <li>वर्ग और वर्गमूल</li>
+            <li>घन और घनमूल</li>
+            <li>राशियों की तुलना</li>
+            <li>बीजीय व्यंजक</li>
+            <li>क्षेत्रमिति</li>
+            <li>घातांक और घात</li>
+            <li>सीधा और प्रतिलोम समानुपात</li>
+            <li>ठोस आकारों का चित्रण</li>
+        </ul>
+    </details>
+
+    <details class="subject-box">
+        <summary>विज्ञान (Science)</summary>
+        <ul class="chapter-list">
+            <li>दहन और ज्वाला</li>
+            <li>तड़ित और भूकंप</li>
+            <li>फसल उत्पादन एवं प्रबंध</li>
+            <li>कपड़े तरह-तरह के : रेशे तरह-तरह के</li>
+            <li>बल से ज़ोर आज़माइश</li>
+            <li>घर्षण के कारण</li>
+            <li>सूक्ष्मजीवों का संसार</li>
+            <li>दाब और बल का आपसी संबंध</li>
+            <li>ईंधन : हमारी ज़रूरत</li>
+            <li>विद्युत धारा के रासायनिक प्रभाव</li>
+            <li>प्रकाश का खेल</li>
+        </ul>
+    </details>
+
+    <details class="subject-box">
+        <summary>सामाजिक विज्ञान (SST)</summary>
+        <ul class="chapter-list">
+            <li>संसाधन (भूगोल)</li>
+            <li>भारतीय संविधान (राजनैतिक शास्त्र)</li>
+            <li>आधुनिक काल में भारत का इतिहास</li>
+            <li>कृषि (भूगोल)</li>
+            <li>संसदीय सरकार (राजनैतिक शास्त्र)</li>
+            <li>अतीत से वर्तमान (इतिहास)</li>
+        </ul>
+    </details>
+
+    <h3 style="text-align: left; color: #d41e2a; margin-top: 20px;">कक्षा 7 (Class 7)</h3>
+    
+    <details class="subject-box">
+        <summary>गणित (Mathematics)</summary>
+        <ul class="chapter-list">
+            <li>पूर्णांक की समझ</li>
+            <li>भिन्न एवं दशमलव</li>
+            <li>आँकड़ों का प्रबंधन</li>
+            <li>सरल समीकरण</li>
+            <li>रेखा एवं कोण</li>
+            <li>त्रिभुज और उसके गुण</li>
+            <li>राशियों की तुलना</li>
+            <li>परिमेय संख्याएँ</li>
+        </ul>
+    </details>
+
+    <details class="subject-box">
+        <summary>विज्ञान (Science)</summary>
+        <ul class="chapter-list">
+            <li>जल और जंगल</li>
+            <li>जन्तुओं में पोषण</li>
+            <li>ऊष्मा</li>
+            <li>गति एवं समय</li>
+            <li>अम्ल, क्षारक और लवण</li>
+            <li>पौधों में पोषण</li>
+            <li>हवा, आँधी और तूफान</li>
+        </ul>
+    </details>
+
+    <h3 style="text-align: left; color: #d41e2a; margin-top: 20px;">कक्षा 6 (Class 6)</h3>
+    
+    <details class="subject-box">
+        <summary>गणित (Mathematics)</summary>
+        <ul class="chapter-list">
+            <li>संख्याओं की समझ</li>
+            <li>पूर्ण संख्याएँ</li>
+            <li>संख्याओं के साथ खेलना</li>
+            <li>आधारभूत ज्यामितीय अवधारणाएँ</li>
+            <li>प्रारंभिक आकारों को समझना</li>
+            <li>पूर्णांक</li>
+            <li>भिन्न</li>
+            <li>दशमलव</li>
+        </ul>
+    </details>
+
+    <details class="subject-box">
+        <summary>हिंदी (Kislay)</summary>
+        <ul class="chapter-list">
+            <li>अरमान (कविता)</li>
+            <li>असली चित्र (कहानी)</li>
+            <li>चिड़िया (कविता)</li>
+            <li>हॉकी का जादूगर</li>
+            <li>हार की जीत</li>
+        </ul>
+    </details>
+</div>
+
+<style>
+    .subject-box {
+        background: #ffffff;
+        margin-bottom: 8px;
+        border-radius: 10px;
+        text-align: left;
+        border: 1px solid #ddd;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+    }
+    summary {
+        padding: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        color: #002e5b;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    summary::after {
+        content: '▼';
+        font-size: 0.7rem;
+        transition: 0.3s;
+    }
+    details[open] summary::after {
+        transform: rotate(180deg);
+    }
+    .chapter-list {
+        background: #f9f9f9;
+        margin: 0;
+        padding: 15px 40px;
+        list-style-type: square;
+        border-top: 1px solid #eee;
+    }
+    .chapter-list li {
+        padding: 6px 0;
+        color: #444;
+        font-size: 0.9rem;
+        border-bottom: 1px solid #f1f1f1;
+    }
+    .chapter-list li:last-child { border-bottom: none; }
+</style><div class="card">
+    <h2 style="color: #002e5b;">📖 Bihar Board Chapter-wise Syllabus</h2>
+    <p style="font-size: 0.9rem; color: #666;">Subject par click karke chapters dekhein:</p>
+
+    <details class="subject-box">
+        <summary>Class 8: गणित (Mathematics)</summary>
+        <ul class="chapter-list">
+            <li>Chapter 1: परिमेय संख्याएँ</li>
+            <li>Chapter 2: एक चर वाले रैखिक समीकरण</li>
+            <li>Chapter 3: ज्यामितीय आकृतियों की समझ</li>
+            <li>Chapter 4: आँकड़ों का प्रबंधन</li>
+            <li>Chapter 5: वर्ग और वर्गमूल</li>
+            <li>Chapter 6: घन और घनमूल</li>
+        </ul>
+    </details>
+
+    <details class="subject-box">
+        <summary>Class 8: विज्ञान (Science)</summary>
+        <ul class="chapter-list">
+            <li>Chapter 1: दहन और ज्वाला</li>
+            <li>Chapter 2: तड़ित और भूकंप</li>
+            <li>Chapter 3: फसल उत्पादन एवं प्रबंध</li>
+            <li>Chapter 4: कपड़े तरह-तरह के : रेशे तरह-तरह के</li>
+            <li>Chapter 5: बल से ज़ोर आज़माइश</li>
+        </ul>
+    </details>
+
+    <details class="subject-box">
+        <summary>Class 7: गणित (Mathematics)</summary>
+        <ul class="chapter-list">
+            <li>Chapter 1: पूर्णांक की समझ</li>
+            <li>Chapter 2: भिन्न एवं दशमलव</li>
+            <li>Chapter 3: आँकड़ों का प्रबंधन</li>
+            <li>Chapter 4: सरल समीकरण</li>
+        </ul>
+    </details>
+
+    <details class="subject-box">
+        <summary>Class 6: गणित (Mathematics)</summary>
+        <ul class="chapter-list">
+            <li>Chapter 1: संख्याओं की समझ</li>
+            <li>Chapter 2: पूर्ण संख्याएँ</li>
+            <li>Chapter 3: संख्याओं के साथ खेलना</li>
+        </ul>
+    </details>
+</div>
+
+<style>
+    /* Styling for the Expandable List */
+    .subject-box {
+        background: #fdf2f2;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        text-align: left;
+        border: 1px solid #d41e2a;
+        overflow: hidden;
+    }
+    summary {
+        padding: 12px;
+        font-weight: bold;
+        cursor: pointer;
+        color: #d41e2a;
+        outline: none;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    summary::after {
+        content: '➕';
+        font-size: 0.8rem;
+    }
+    details[open] summary::after {
+        content: '➖';
+    }
+    .chapter-list {
+        background: white;
+        margin: 0;
+        padding: 10px 40px;
+        list-style-type: circle;
+        border-top: 1px solid #eee;
+    }
+    .chapter-list li {
+        padding: 5px 0;
+        font-size: 0.95rem;
+        color: #333;
+    }
+</style><div class="card" style="background: #eef2f7; border-top: 5px solid #002e5b;">
+    <h2 style="color: #002e5b;">🌟 NCERT Special Resources</h2>
+    <p style="font-size: 0.9rem;">Behtar taiyari ke liye niche diye gaye links ka use karein:</p>
+
+    <details class="subject-box" style="background: white;">
+        <summary>Class 6 to 10: Special Materials</summary>
+        <div class="resource-grid">
+            <a href="https://ncert.nic.in/exemplar-problems.php" target="_blank" class="res-link">Exemplar Problems (Maths/Sci)</a>
+            <a href="https://ncert.nic.in/model-question-papers.php" target="_blank" class="res-link">Model Question Papers</a>
+            <a href="https://ncert.nic.in/lab-manuals.php" target="_blank" class="res-link">Science Lab Manuals</a>
+            <a href="https://ncert.nic.in/learning-outcomes.php" target="_blank" class="res-link">Learning Outcomes</a>
+        </div>
+    </details>
+
+    <details class="subject-box" style="background: white;">
+        <summary>Class 11 & 12: Advanced Study</summary>
+        <div class="resource-grid">
+            <a href="https://ncert.nic.in/textbook.php?keph1=0-8" target="_blank" class="res-link">Physics (Part 1 & 2)</a>
+            <a href="https://ncert.nic.in/textbook.php?kech1=0-7" target="_blank" class="res-link">Chemistry Notes</a>
+            <a href="https://ncert.nic.in/textbook.php?kemh1=0-6" target="_blank" class="res-link">Higher Maths</a>
+            <a href="https://ncert.nic.in/textbook.php?kebo1=0-5" target="_blank" class="res-link">Biology Diagrams</a>
+        </div>
+    </details>
+
+    <div style="margin-top: 15px; background: #fff; padding: 15px; border-radius: 10px; border: 1px dashed #d41e2a;">
+        <h4 style="margin:0 0 10px 0; color: #d41e2a;">🎥 NCERT Video Lessons (DIKSHA)</h4>
+        <p style="font-size: 0.85rem; margin-bottom: 10px;">Agar aapko video se samajhna hai, toh DIKSHA portal best hai:</p>
+        <a href="https://diksha.gov.in/explore" target="_blank" class="btn" style="background: #002e5b; font-size: 0.9rem; padding: 10px;">Open Video
+<div class="card" style="background: #fff0f0; border: 2px solid #d41e2a;">
+    <h2 style="color: #d41e2a;">🩺 NEET Medical Preparation Corner</h2>
+    <p><b>NextGen Academy</b> ab aapko Medical Entrance (NEET) ke liye taiyar karega!</p>
+
+    <div class="info-text" style="background: #fff; border-left: 5px solid #002e5b; margin-bottom: 15px;">
+        <h4 style="margin: 0 0 5px 0;">NEET Crack Karne Ke 3 Mantra:</h4>
+        <ul style="padding-left: 20px; margin: 0;">
+            <li><b>NCERT Command:</b> 90% sawal seedhe NCERT se aate hain.</li>
+            <li><b>Concept Clarity:</b> Ratta nahi, logic samjhein.</li>
+            <li><b>Daily Practice:</b> Physics ke numericals aur Bio ke diagrams.</li>
+        </ul>
+    </div>
+
+    <details class="subject-box">
+        <summary>Biology: The Scoring Subject</summary>
+        <ul class="chapter-list">
+            <li>Human Physiology (सबसे ज्यादा सवाल)</li>
+            <li>Genetics & Evolution</li>
+            <li>Ecology & Environment</li>
+            <li>Plant Physiology</li>
+            <li>Cell: Structure and Functions</li>
+        </ul>
+    </details>
+
+    <details class="subject-box">
+        <summary>Physics: Concept & Logic</summary>
+        <ul class="chapter-list">
+            <li>Mechanics (Kinematics, Laws of Motion)</li>
+            <li>Thermodynamics</li>
+            <li>Electrostatics & Current Electricity</li>
+            <li>Optics (Ray & Wave)</li>
+            <li>Modern Physics</li>
+        </ul>
+    </details>
+
+    <details class="subject-box">
+        <summary>Chemistry: Reaction & Analysis</summary>
+        <ul class="chapter-list">
+            <li>Organic Chemistry (Name Reactions)</li>
+            <li>Chemical Bonding</li>
+            <li>Equilibrium</li>
+            <li>Coordination Compounds</li>
+            <li>Solutions & Electrochemistry</li>
+        </ul>
+    </details>
+
+    <div style="margin-top: 20px;">
+        <a href="https://ntaneet.nic.in/" target="_blank" class="res-link" style="display:block; background:#002e5b; color:white; padding:10px;">Official NEET Syllabus (NTA)</a>
+    </div>
+</div>
+<div class="card" style="background: linear-gradient(135deg, #002e5b 0%, #004080 100%); color: white;">
+    <h2 style="color: #f1c40f;">✨ Motivation Corner</h2>
+    
+    <div class="quote-box">
+        <p class="hindi-quote">"शिक्षा सबसे सशक्त हथियार है जिससे आप दुनिया बदल सकते हैं।"</p>
+        <span class="author">— नेल्सन मंडेला</span>
+    </div>
+
+    <div class="quote-box">
+        <p class="hindi-quote">"मंजिल उन्हीं को मिलती है, जिनके सपनों में जान होती है, पंखों से कुछ नहीं होता, हौसलों से उड़ान होती है।"</p>
+    </div>
+
+    <div class="quote-box">
+        <p class="hindi-quote">"अगर आप सूरज की तरह चमकना चाहते हैं, तो पहले सूरज की तरह जलना सीखें।"</p>
+        <span class="author">— डॉ. ए.पी.जे. अब्दुल कलाम</span>
+    </div>
+
+    <div style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 10px; margin-top: 15px;">
+        <p style="margin:0; font-style: italic; font-size: 0.9rem;">
+            "NextGen Academy में हमारा मकसद सिर्फ पढ़ाना नहीं, बल्कि मधेपुरा के हर छात्र के अंदर के टैलेंट को जगाना है।" 
+            <br><b>- Dipak Sir</b>
+        </p>
+    </div>
+</div>
+
+<style>
+    .quote-box {
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        padding: 15px 0;
+    }
+    .quote-box:last-child { border-bottom: none; }
+    .hindi-quote {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-bottom: 5px;
+        line-height: 1.4;
+    }
+    .author {
+        font-size: 0.8rem;
+        color: #f1c40f;
+        display: block;
+    }
+</style>
+
+
+
